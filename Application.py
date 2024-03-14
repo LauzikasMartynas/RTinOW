@@ -30,6 +30,7 @@ class Frame(wx.Frame):
         self.SetSize((800, 500))
         # Create a panel
         self.panel = DisplayPanel(self)
+        self.Show()
 
 # Main app
 if __name__ == '__main__':
